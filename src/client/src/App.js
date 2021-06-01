@@ -9,7 +9,7 @@ export class App extends React.Component{
             <>
                 <div>
                     <Carousel>
-                        <Carousel.Item style={{height:600}}>
+                        <Carousel.Item>
                         <img
                                 className="d-block w-100"
                                 src="https://picsum.photos/1000/400"
@@ -20,7 +20,7 @@ export class App extends React.Component{
                                 <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item style={{height:600}}>
+                        <Carousel.Item>
                         <img
                                 className="d-block w-100"
                                 src="https://picsum.photos/1000/400"
@@ -32,7 +32,7 @@ export class App extends React.Component{
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item style={{height:600}}>
+                        <Carousel.Item>
                             <img
                                 className="d-block w-100"
                                 src="https://picsum.photos/1000/400"
